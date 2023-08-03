@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: lightblue;
+    position: fixed;
+    top: 58px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* justify-content: space-between; */
+    row-gap: 35px;
+}
+.home , .library , .explore , .subscription , .original , .music{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+}
+.home-icon{
+    height: 24px;
+}
+.library-icon{
+    height: 24px;
+}
+.explore-icon{
+    height: 24px;
+}
+.subscription-icon{
+    height: 24px;
+}
+.original-icon{
+    height: 24px;
+}
+.music-icon{
+    height: 24px;
+}

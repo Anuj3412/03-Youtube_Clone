@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+
 .header {
     height: 57px;
     display: flex;
@@ -10,10 +11,14 @@
     align-items: center;
     margin-top: -1px;
     margin-bottom: 22px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(202, 201, 201);
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
 }
 
@@ -27,6 +32,7 @@
     border-color: rgb(159, 159, 159);
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     border-radius: 2px;
+    width: 0;
 
 }
 
@@ -91,7 +97,7 @@
 }
 
 .my-channel {
-    height: 45px;
+    height: 35px;
     border-radius: 50px;
 }
 
@@ -104,14 +110,15 @@
 }
 
 .header-right {
-    background-color: lightpink;
+   
     width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
+    flex-shrink: 0;
 }
 
 

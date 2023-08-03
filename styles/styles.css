@@ -6,6 +6,13 @@
 }
 
 
+body {
+    padding-top: 80px;
+    padding-left: 94px;
+    padding-right: 23px;
+}
+
+
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
