@@ -5,16 +5,13 @@
 
 }
 
-.search-bar{
-    margin: 20px;
-    font-size: larger;
-    display: block;
-}
+
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 15px;
+    /* padding: 20px; */
 }
 .thumbnail-image{
     width: 100%;
@@ -25,6 +22,7 @@
     display: block;
 }
 .video-info-grid{
+    margin-top: 10px;
     display:grid;
     grid-template-columns: 50px  1fr;
     padding-bottom: 10px;
@@ -42,7 +40,7 @@
 }
 .video-author , .video-stats{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 300;
     color: rgb(96, 96, 96);
     margin-bottom: 1px;
 }
