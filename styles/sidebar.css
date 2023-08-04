@@ -1,7 +1,7 @@
 .sidebar {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     position: fixed;
-    top: 58px;
+    top: 56px;
     left: 0;
     bottom: 0;
     width: 72px;
@@ -10,13 +10,17 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
     /* justify-content: space-between; */
-    row-gap: 35px;
+    row-gap: 45px;
+    border-right-style: solid;
+    border-color: rgb(244, 244, 244);
+
 }
 .home , .library , .explore , .subscription , .original , .music{
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 10px;
     align-items: center;
 }
 .home-icon{
